@@ -4,11 +4,7 @@ output adress {
   description = "description"
 }
 
-output = availablity_zone {
-    value = "aws_db_instance.default.availablity_zone"
-    sensitive = true
-    description = "description"
-}
+
 
 output engine {
   value       = "aws_dv_instance.default.engine"
